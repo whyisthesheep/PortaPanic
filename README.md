@@ -1,2 +1,3 @@
 # PortaPanic
 Simple bookmarklet made by myself
+Here is a link to the bookmarklet with url prompt <a href='javascript:{let link = prompt("Link: (full link) "); const button = document.createElement("a"); button.setAttribute("href", link); button.style.position = "fixed"; button.style.width = "60px"; button.style.height = "60px"; button.style.bottom = "40px"; button.style.right = "40px"; button.style.backgroundColor = "#2d63c8"; button.style.color = "#FFF"; button.style.borderRadius = "50px"; button.style.textAlign = "center"; button.style.boxShadow = "2px 2px 3px #999"; button.style.fontSize = "18px"; document.body.appendChild(button);}'>Here</a>
