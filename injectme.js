@@ -1,4 +1,4 @@
-let link = prompt("Link: (full link) ")
+let link = prompt("Link: (full link) ");
 const sheet = document.createElement("link");
 sheet.setAttribute("rel", "stylesheet");
 sheet.setAttribute("type", "text/css");
